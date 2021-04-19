@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App</title>
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <div class="hide">
+            <label for="search" id="src">Book Self</label><br><br>
+            
+              
+                <label for="price">Book Store</label><br><br>
+                <div>
+                  <input type="text" id="bookId" placeholder="Add name book..." />
+                </div>
+                <div>
+                  <input type="number" id = 'price', placeholder="Price of book" min="1" max = "20">
+                </div>
+                <div>
+                    <input type="text" id="author" placeholder="Name of Author..."/>
+                  </div>
+                  <label for="dateId">Booking:</label>
+                  <div>
+                    <input type="date" id="dateId" />
+                  </div>
+                  <label for="date">Taking:</label>
+                <div>
+                  <input type="date" id="date" />
+                </div>
+                <p class="warning">Booking must before Taking</p>
+                <div>
+                  <button id="createBook">Create Book</button>
+                  <button id="updateBtn">Update Book</button>
+                </div><br><br>
+                
+          </div>
+<!-- output value -->
+          <div class="hide-result">
+            <label for="" id="src">List Store</label><br><br>
+            <label for="search"> Search Result</label><br><br>
+            <input type="text" id="search" placeholder="Search book...">
+            <div class="bookResult">
+              <ul>
+                <!-- output value here -->
+              <ul>
+              </div>
+          </div>
+      </form>
+    </div> 
+    <div class="button">
+      <button id="create">Order</button><br><br>
+      <button id="close">Close</button>   
+  </div>  
+  </body>
+</html>

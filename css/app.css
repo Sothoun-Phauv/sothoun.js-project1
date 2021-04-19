@@ -1,0 +1,143 @@
+body {
+    background: #eec;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    border: solid black 2px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(192, 237, 250);
+    display: none;
+}
+
+#src{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 0, 140);
+}
+label{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+span {
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    color: rgb(185, 19, 135);
+    font-weight: bold;
+}
+
+.bookResult {
+    background: rgba(32, 29, 29, 0.075);
+    padding: 1px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+.book-delete{
+    color: black;
+    background: red;
+    font-size: 20px;
+    font-weight: bold;
+    width: 5%;
+    width: 60px;
+}
+.book-edit{
+    color: black;
+    background: rgb(145, 231, 6);
+    font-size: 20px;
+    font-weight: bold;
+    width: 5%;
+    width: 60px;
+}
+
+li {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(118, 197, 236);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#createBook{
+    top:20px ;
+    width: 100%;
+    margin: auto; 
+    border: solid black 2px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    background: rgba(43, 41, 41, 0.219);
+}
+#createBook:hover{
+    background: rgb(182, 231, 5);
+    color: red;
+    cursor: pointer;
+}
+.button{
+    height: auto;
+    width: 52%;
+    justify-content: center;
+    margin-left:24% ;
+    margin-right: 50%;
+    
+}
+button{
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}
+#close{
+    display: none;
+    font-weight: bold;
+    background:rgb(7, 138, 77);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#create{
+
+    font-weight: bold;
+    background:rgb(245, 5, 25);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.hide-result{
+    display: none;
+}
+
+
+.warning {
+    color: red;
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    background: cyan;
+}
+#updateBtn {
+    background: green;
+    outline: none;
+    display: none;
+    cursor: pointer;
+}
